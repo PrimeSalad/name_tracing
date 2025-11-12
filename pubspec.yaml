@@ -1,0 +1,35 @@
+name: name_tracing
+description: name_tracing
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  confetti: ^0.7.0
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/complete.png
+    - assets/images/logo.png
+    - assets/music/
+    - assets/fonts/
+    - assets/images/how.png
+    - assets/music/bgm.mp3
+
+fonts:
+  - family: KGPrimaryDots
+    fonts:
+      - asset: assets/fonts/KGPrimaryDots.ttf
